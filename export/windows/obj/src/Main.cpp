@@ -9,6 +9,9 @@
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
 #endif
+#ifndef INCLUDED_flixel_FlxG
+#include <flixel/FlxG.h>
+#endif
 #ifndef INCLUDED_flixel_FlxGame
 #include <flixel/FlxGame.h>
 #endif
@@ -49,6 +52,7 @@ void Main_obj::__construct(){
             	HX_GC_STACKFRAME(&_hx_pos_e47a9afac0942eb9_9_new)
 HXLINE(  10)		super::__construct();
 HXLINE(  11)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,0,0,::hx::ClassOf< ::PlayState >(),null(),null(),null(),true,null()));
+HXLINE(  12)		::flixel::FlxG_obj::autoPause = false;
             	}
 
 Dynamic Main_obj::__CreateEmpty() { return new Main_obj; }

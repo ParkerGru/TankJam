@@ -44,11 +44,11 @@ class PlayState extends FlxState
 	{
 		guy = new FlxSprite();
 		guy.frames = AssetPaths.getSparrowAtlas('steve');
-		guy.animation.addByIndices('idle', 'steve', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], '', 24, true);
-		guy.animation.addByIndices('look_up', 'steve', [13, 14, 15, 16, 17, 18, 19, 20, 22, 23], '', 24, false);
-		guy.animation.addByIndices('crouch', 'steve', [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], '', 24, false);
-		guy.animation.addByIndices('jump', 'steve', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53], '', 24, true);
-		guy.animation.addByIndices('run', 'steve', [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70], '', 24, true);
+		guy.animation.addByIndices('idle', 'steve', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], '', 30, true);
+		guy.animation.addByIndices('look_up', 'steve', [13, 14, 15, 16, 17, 18, 19, 20, 22, 23], '', 30, false);
+		guy.animation.addByIndices('crouch', 'steve', [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], '', 30, false);
+		guy.animation.addByIndices('jump', 'steve', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53], '', 30, true);
+		guy.animation.addByIndices('run', 'steve', [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70], '', 30, true);
 		guy.antialiasing = false;
 		guy.drag.set(RUN_SPEED * 8, RUN_SPEED * 8);
 		guy.scale.set(0.3, 0.3);
@@ -57,11 +57,11 @@ class PlayState extends FlxState
 
 		guy2 = new FlxSprite();
 		guy2.frames = AssetPaths.getSparrowAtlas('John');
-		guy2.animation.addByIndices('idle', 'John', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], '', 24, true);
-		guy2.animation.addByIndices('look_up', 'John', [13, 14, 15, 16, 17, 18, 19, 20, 22, 23], '', 24, false);
-		guy2.animation.addByIndices('crouch', 'John', [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], '', 24, false);
-		guy2.animation.addByIndices('jump', 'John', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53], '', 24, true);
-		guy2.animation.addByIndices('run', 'John', [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70], '', 24, true);
+		guy2.animation.addByIndices('idle', 'John', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], '', 30, true);
+		guy2.animation.addByIndices('look_up', 'John', [13, 14, 15, 16, 17, 18, 19, 20, 22, 23], '', 30, false);
+		guy2.animation.addByIndices('crouch', 'John', [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], '', 30, false);
+		guy2.animation.addByIndices('jump', 'John', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53], '', 30, true);
+		guy2.animation.addByIndices('run', 'John', [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70], '', 30, true);
 		guy2.antialiasing = false;
 		guy2.drag.set(RUN_SPEED * 8, RUN_SPEED * 8);
 		guy2.scale.set(0.3, 0.3);
